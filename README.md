@@ -64,10 +64,25 @@ Componentes de UI
 npx shadcn@latest add button
 ```
 
+# [Phosphor-icons](https://ui.shadcn.com/docs/installation/next)
 
+- Instalação de dependências para o Phosphor-icons
 
+```bash
+npm i @phosphor-icons/react
+```
 
 <br/>
+
+# [Embla Carousel](https://www.embla-carousel.com/get-started/react/)
+
+- Instalação de dependências para o Embla Carousel
+
+```bash
+npm install embla-carousel-react --force
+```
+
+
 <br/>
 
 

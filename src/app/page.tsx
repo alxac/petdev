@@ -1,8 +1,17 @@
+import About from "./_components/about";
+import { Footer } from "./_components/footer";
+import Hero from "./_components/hero";
+import Services from "./_components/services";
+import Testimonials from "./_components/testomonials";
+
 export default function Home() {
   return (
     <main>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-      <p className="text-lg">This is a simple Next.js app with Tailwind CSS.</p>
+      <Hero />
+      <About />
+      <Services />
+      <Testimonials />
+      <Footer />
     </main>
   )
 }
