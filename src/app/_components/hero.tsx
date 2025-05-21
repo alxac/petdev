@@ -21,15 +21,17 @@ export default function Hero() {
                 <article className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     <div className="space-y-6">
 
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
+                        <h1
+                            data-aos="fade-down"
+                            className="text-3xl md:text-4xl lg:text-5xl font-bold leading-10">
                             Seu pet merece cuidado de qualidade, carinho e atenção especial.
                         </h1>
 
-                        <p className="lg:text-lg">
+                        <p className="lg:text-lg" data-aos="fade-right">
                             Oferecemos os melhores serviços de banho e tosa para garantir o bem-estar do seu pet e a felicidade do seu amigo de quatro patas.
                         </p>
 
-                        <a
+                        <a data-aos="fade-up"
                             href={`https://wa.me/556599990000?text=Olá vim pelo site e gostaria de mais informações`}
                             className="bg-green-500 px-5 py-2 rounded-md font-semibold flex 
                         items-center justify-center w-fit gap-2">

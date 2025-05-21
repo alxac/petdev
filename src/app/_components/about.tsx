@@ -11,7 +11,7 @@ export default function About() {
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-                    <div className="relative">
+                    <div className="relative" data-aos="fade-up-right">
                         <div className="relative w-full h-[400px] rounded-3xl overflow-hidden">
                             <Image
                                 src={about1Img}
@@ -33,7 +33,7 @@ export default function About() {
                         </div>
                     </div>
 
-                    <div className="space-y-6 mt-10">
+                    <div className="space-y-6 mt-10" data-aos="fade-left">
                         <h2 className="text-4xl font-bold">About Us</h2>
                         <p className="text-gray-600">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam venenatis elit eros, eget vehicula metus fermentum ut. Pellentesque imperdiet purus eget nunc egestas sagittis. Etiam posuere ligula quis aliquet consectetur. Nunc placerat placerat odio, et viverra magna placerat in. Phasellus convallis, odio quis tempor aliquet, turpis tellus gravida enim, et.

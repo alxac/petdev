@@ -82,6 +82,17 @@ npm i @phosphor-icons/react
 npm install embla-carousel-react --force
 ```
 
+<br/>
+
+# [AOS](https://michalsnik.github.io/aos/)
+
+- Instalação de dependências para o AOS
+
+```bash
+npm install aos --force
+npm install --save-dev @types/aos
+```
+
 
 <br/>
 
